@@ -1,0 +1,12 @@
+<story path="stories/consult_dictionary/Sample.story" title="Data search">
+<narrative keyword="Narrative:">
+  <inOrderTo keyword="In order to">communicate effectively to the business some functionality</inOrderTo>
+  <asA keyword="As a">development team</asA>
+  <iWantTo keyword="I want to">use Behaviour-Driven Development</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Search elements are displayed when User typed into Main search">
+<step outcome="successful">Given User on test page</step>
+<step outcome="successful">When User search for a keyword &apos;asthma&apos;</step>
+<step outcome="successful">Then User verify if the search results displayed are for &apos;asthma&apos;</step>
+</scenario>
+</story>

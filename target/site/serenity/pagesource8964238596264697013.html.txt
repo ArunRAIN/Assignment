@@ -1,0 +1,1194 @@
+<!DOCTYPE html>
+<!-- build number 164 -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-AU"><head><style scope="universal-header">.grid-container.universal-header,.hda-uh.universal-header nav.universal-header {
+  margin-left:auto;margin-right:auto;padding-left:.9375rem;padding-right:.9375rem
+}
+
+.clearfix.universal-header::after,.grid-container.universal-header::after,.hda-uh.universal-header nav.universal-header::after,.hda-uh.universal-header nav.universal-header&gt;ul.universal-header::after {
+  content:"";display:table;clear:both
+}
+
+@media (min-width:760px) {
+.grid-container.universal-header,.hda-uh.universal-header nav.universal-header {
+  max-width:1050px
+}
+
+}
+
+@media (min-width:1030px) {
+.grid-container.universal-header,.hda-uh.universal-header nav.universal-header {
+  max-width:1050px
+}
+
+}
+
+@media (min-width:1200px) {
+.grid-container.universal-header,.hda-uh.universal-header nav.universal-header {
+  max-width:1050px
+}
+
+}
+
+@media (min-width:1800px) {
+.grid-container.universal-header,.hda-uh.universal-header nav.universal-header {
+  max-width:1050px
+}
+
+}
+
+*.universal-header {
+  box-sizing:border-box;font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+nav.universal-header ul.universal-header {
+  list-style-type:none;padding:0
+}
+
+.btn-group.universal-header,.hda-uh.universal-header nav.universal-header&gt;ul.universal-header&gt;li.hda-uh_item__has-dropdown.universal-header {
+  position:relative;vertical-align:middle
+}
+
+.mobile-nav.universal-header {
+  display:block
+}
+
+.mobile-nav.universal-header .hda-uh_hda-logo-icon.universal-header {
+  width:20px
+}
+
+.desktop-nav.universal-header {
+  display:none
+}
+
+.hda-uh.universal-header {
+  position:absolute;width:100%;top:0;left:0;background-color:#545454;color:#fff;font-size:12px;box-shadow:0 1px 6px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.24)
+}
+
+.hda-uh.universal-header a.universal-header {
+  text-decoration:none
+}
+
+.hda-uh.universal-header a.disable-link.universal-header:hover {
+  cursor:default
+}
+
+.hda-uh.universal-header nav.universal-header {
+  padding:0
+}
+
+.hda-uh.universal-header nav.universal-header&gt;ul.universal-header {
+  margin:0
+}
+
+.hda-uh.universal-header nav.universal-header&gt;ul.universal-header&gt;li.universal-header {
+  float:left;border-right:1px solid #3a3a3a
+}
+
+.hda-uh.universal-header nav.universal-header&gt;ul.universal-header&gt;li.universal-header&gt;a.universal-header,.hda-uh.universal-header nav.universal-header&gt;ul.universal-header&gt;li.universal-header&gt;button.universal-header {
+  color:inherit;font-size:inherit;padding:9px 20px;height:36px
+}
+
+.hda-uh.universal-header nav.universal-header&gt;ul.universal-header&gt;li.universal-header&gt;a.universal-header {
+  display:inline-block
+}
+
+.hda-uh.universal-header nav.universal-header&gt;ul.universal-header&gt;li.universal-header&gt;a[aria-expanded=true].universal-header+.hda-uh-dropdown.universal-header {
+  display:block
+}
+
+.hda-uh.universal-header nav.universal-header&gt;ul.universal-header&gt;li.universal-header&gt;button.universal-header {
+  border:none;background-color:transparent
+}
+
+.hda-uh.universal-header nav.universal-header&gt;ul.universal-header&gt;li.universal-header&gt;button[aria-expanded=true].universal-header+.hda-uh-dropdown-menu.universal-header {
+  display:block
+}
+
+.hda-uh_hda-logo-icon.universal-header {
+  position:relative;display:inline-block;width:80px
+}
+
+.hda-icon_caret-down.universal-header {
+  height:4px;position:relative;top:-2px;left:4px
+}
+
+.hda-uh-dropdown-menu.universal-header {
+  position:absolute;top:36px;left:0;z-index:1010;display:none;float:left;min-width:160px;margin:0;font-size:12px;color:#333;text-align:left;list-style:none;background-color:#fff;background-clip:padding-box;border:1px solid #eaeaea;box-shadow:0 1px 6px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.24)
+}
+
+.hda-uh-dropdown-menu.universal-header li.universal-header {
+  border-bottom:1px solid #eaeaea
+}
+
+.hda-uh-dropdown-menu.universal-header li.universal-header:last-child {
+  border:none
+}
+
+.hda-uh-dropdown-menu.universal-header li.universal-header a.universal-header {
+  display:block;width:100%;padding:5px 20px;clear:both;font-weight:400;line-height:1.5;color:#333;text-align:inherit;white-space:nowrap;background:0 0;border:0
+}
+
+.hda-uh-dropdown-menu.universal-header li.universal-header a.universal-header:focus,.hda-uh-dropdown-menu.universal-header li.universal-header a.universal-header:hover {
+  color:#333;text-decoration:none;background-color:#eaeaea
+}
+
+.hda-uh-dropdown.universal-header a.universal-header,.hda-uh_button.universal-header {
+  display:block;border-radius:5px;font-size:14px;padding:6px;text-align:center
+}
+
+.hda-uh-dropdown.universal-header {
+  position:absolute;top:36px;left:0;z-index:1010;display:none;float:left;width:260px;padding:12px;margin:0;font-size:12px;color:#333;text-align:left;list-style:none;background-color:#fff;background-clip:padding-box;border:1px solid #eaeaea;box-shadow:0 1px 6px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.24)
+}
+
+.hda-uh-dropdown.universal-header img.universal-header {
+  height:36px;margin-bottom:6px
+}
+
+.hda-uh-dropdown.universal-header a.universal-header {
+  color:#fff
+}
+
+.hda-uh-dropdown.universal-header a.universal-header:hover {
+  opacity:.8;text-decoration:none
+}
+
+.hda-uh_item-visit-hda.universal-header {
+  background-color:#1e4759
+}
+
+.hda-uh_item-visit-pbb.universal-header {
+  background-color:#474973
+}
+
+.hda-uh_item-visit-mhc.universal-header {
+  background-color:#3b679b
+}
+
+.hda-uh_item-visit-mac.universal-header {
+  background-color:#594161
+}
+
+.hda-uh_item-visit-carer.universal-header {
+  background-color:#5b57a4
+}
+
+@media (min-width:1030px) {
+.hda-uh.universal-header nav.universal-header a[aria-expanded=true].universal-header:not(.disable-link) {
+  background-color:#3a3a3a
+}
+
+.mobile-nav.universal-header {
+  display:none
+}
+
+.desktop-nav.universal-header {
+  display:block
+}
+
+}
+
+@media print {
+.hda-uh.universal-header {
+  display:none
+}
+
+}</style><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+            <base href="/" />
+            <title>Search results for: asthma | healthdirect</title>
+            <meta content="app-id=1021494621" name="apple-itunes-app" />
+            <meta content="healthdirect provides easy access to trusted, quality health information and advice online and over the phone." name="description" />
+            <meta charset="utf-8" />
+            <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+            <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+            <meta content="text/html" schema="DCterms:IMT" name="DC.Format" /><meta content="text/html" name="DC.Type" />
+            <meta content="Search results for: asthma" xml:lang="EN" name="DC.Title" />
+            <meta content="Healthdirect Australia" name="DC.Creator" />
+            
+            <meta content="Healthdirect Australia" name="DC.Publisher" />
+            
+            <meta content="healthdirect provides easy access to trusted, quality health information and advice online and over the phone." xml:lang="EN" name="DC.Description" /><meta content="healthdirect provides easy access to trusted, quality health information and advice online and over the phone." property="og:description" />
+            <meta content="Healthdirect Australia" name="DC.Rights" />
+            <meta content="en" name="DC.Language" />
+
+            <meta content="Search results for: asthma" property="og:title" />
+            <meta content="website" property="og:type" />
+            <meta content="healthdirect provides easy access to trusted, quality health information and advice online and over the phone." property="og:description" />
+            <meta content="https://www.healthdirect.gov.au/search-results/asthma" property="og:url" />
+            <meta content="https://media.healthdirect.org.au/images/inline/original/healthdirect_logo.png" property="og:image" />
+
+
+
+            
+            
+
+            <!-- Google Tag Manager -->
+            <script type="text/javascript" async="" src="https://www.google-analytics.com/gtm/js?id=GTM-PK5RPL7&amp;t=gtm1&amp;cid=579022871.1502598351"></script><script src="https://connect.facebook.net/signals/config/201142693747655?v=2.7.19" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MHFB33K"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-MHFB33K');</script>
+            <!-- End Google Tag Manager -->
+
+
+            <!--[if IE]>
+            <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
+            <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+            <![endif]-->
+            <script async="" src="//www.google-analytics.com/analytics.js"></script><link href="/assets/images/favicon.png" rel="icon" />
+            <!-- For third-generation iPad with high-resolution Retina display: -->
+            <link href="/assets/images/apple-touch-icon-144x144-precomposed.png" sizes="144x144" rel="apple-touch-icon-precomposed" />
+            <!-- For iPhone with high-resolution Retina display: -->
+            <link href="/assets/images/apple-touch-icon-114x114-precomposed.png" sizes="114x114" rel="apple-touch-icon-precomposed" />
+            <!-- For first- and second-generation iPad: -->
+            <link href="/assets/images/apple-touch-icon-72x72-precomposed.png" sizes="72x72" rel="apple-touch-icon-precomposed" />
+            <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+            <link href="/assets/images/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed" />
+            <link href="/assets/164/styles/main.css" type="text/css" rel="stylesheet" />
+
+            <script type="text/javascript">
+                var HDW = {mediaCdn:'https://media.healthdirect.org.au/', siteId:'hin', nhsdApi:'7de96a3a4efb4b93b19035e6ee7554ef'}
+            </script>
+            <script src="/assets/164/scripts/veyron.js" type="text/javascript"></script>
+        <meta name="referrer" content="origin" /><script src="/components/webcomponentsjs/0.7.20/webcomponents-lite.min.js"></script><link rel="import" href="/components/universal-header/universal-header.html" /></head>
+    
+    
+    
+            
+            
+                <body>
+            
+            
+                  <!-- Google Tag Manager (noscript) -->
+                  <noscript>&lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHFB33K"
+                                    height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+                  <!-- End Google Tag Manager (noscript) -->
+            
+                  <universal-header class="veyron-component">
+
+      <!--uncache(rename:false)-->
+      
+      <!--enduncache-->
+
+      <start-google-analytics-tracker class="style-scope universal-header">
+        <iron-signals class="style-scope start-google-analytics-tracker"></iron-signals>
+    </start-google-analytics-tracker>
+    <section class="hda-uh style-scope universal-header">
+      <nav class="mobile-nav style-scope universal-header">
+        <ul class="style-scope universal-header">
+          <li class="style-scope universal-header">
+            <a aria-label="health direct homepage" class="style-scope universal-header" data-google-analytics-category="Universal Header,Healthdirect logo" title="General health" href="//www.healthdirect.gov.au/">
+              <img alt="health direct logo" class="hda-uh_hda-logo-icon style-scope universal-header" src="https://www.healthdirect.gov.au/components/universal-header/images/logo-small.svg" />
+            </a>
+          </li>
+          <li class="hda-uh_item__has-dropdown style-scope universal-header" id="uhmobileMenu">
+            <button data-hda-dropdown="" aria-haspopup="true" data-toggle="click-dropdown" class="style-scope universal-header" aria-expanded="false">All Sites <img src="https://www.healthdirect.gov.au/components/universal-header/images/caret-down.svg" class="hda-icon_caret-down style-scope universal-header" /></button>
+            <ul class="hda-uh-dropdown-menu style-scope universal-header">
+                
+                    <li class="style-scope universal-header">
+                        <a data-google-analytics-category="Universal Header,All services menu - healthdirect" href="https://www.healthdirect.gov.au/" class="style-scope universal-header">General health</a>
+                    </li>
+                <template is="dom-if" class="style-scope universal-header"></template>
+                
+                    <li class="style-scope universal-header">
+                        <a data-google-analytics-category="Universal Header,All services menu - Pregnancy Birth and Baby" href="https://www.pregnancybirthbaby.org.au/" class="style-scope universal-header">Pregnancy and parenting</a>
+                    </li>
+                <template is="dom-if" class="style-scope universal-header"></template>
+                
+                    <li class="style-scope universal-header">
+                        <a data-google-analytics-category="Universal Header,All services menu - mindhealthconnect" href="https://www.mindhealthconnect.org.au/" class="style-scope universal-header">Mental health</a>
+                    </li>
+                <template is="dom-if" class="style-scope universal-header"></template>
+                
+                    <li class="style-scope universal-header">
+                        <a data-google-analytics-category="Universal Header,All services menu - My Aged Care" href="https://www.myagedcare.gov.au/" class="style-scope universal-header">Aged care</a>
+                    </li>
+                <template is="dom-if" class="style-scope universal-header"></template>
+                
+                    <li class="style-scope universal-header">
+                        <a data-google-analytics-category="Universal Header,All services menu - Carer Gateway" href="https://www.carergateway.gov.au/" class="style-scope universal-header">Caring for someone</a>
+                    </li>
+                <template is="dom-if" class="style-scope universal-header"></template>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <nav class="desktop-nav style-scope universal-header">
+        <ul class="style-scope universal-header">
+          <li class="style-scope universal-header">
+            <a aria-label="health direct homepage" class="style-scope universal-header" data-google-analytics-category="Universal Header,Healthdirect logo" title="General health" href="//www.healthdirect.gov.au/">
+              <img alt="health direct logo" src="https://www.healthdirect.gov.au/components/universal-header/images/logo.svg" class="hda-uh_hda-logo-icon style-scope universal-header" />
+            </a>
+          </li>
+          <li data-model="hda" class="hda-uh_item__has-dropdown style-scope universal-header">
+            <a aria-haspopup="true" data-toggle="mouseover-dropdown" data-google-analytics-category="Universal Header,General Health" class="style-scope universal-header" href="//www.healthdirect.gov.au/" aria-expanded="false">General health</a>
+            <div class="hda-uh-dropdown style-scope universal-header">
+              <img alt="Health direct logo" src="https://www.healthdirect.gov.au/components/universal-header/images/uh-logo-hda.png" class="style-scope universal-header" />
+              <p class="style-scope universal-header">Access trusted, quality health information and advice</p>
+              <a class="hda-uh_item-visit-hda style-scope universal-header" data-google-analytics-category="Universal Header,General Health" href="https://www.healthdirect.gov.au/">Visit healthdirect</a>
+            </div>
+          </li>
+          <li data-model="pbb" class="hda-uh_item__has-dropdown style-scope universal-header">
+            <a aria-haspopup="true" data-toggle="mouseover-dropdown" data-google-analytics-category="Universal Header,Visit Pregnancy Birth and Baby" class="style-scope universal-header" href="//www.pregnancybirthbaby.org.au/" aria-expanded="false">Pregnancy and parenting</a>
+            <div class="hda-uh-dropdown style-scope universal-header">
+              <img alt="Parent, pregnancy and birth logo" src="https://www.healthdirect.gov.au/components/universal-header/images/uh-logo-ppb.png" class="style-scope universal-header" />
+              <p class="style-scope universal-header">Access quality information from pregnancy planning through to early parenthood</p>
+              <a class="hda-uh_item-visit-pbb style-scope universal-header" data-google-analytics-category="Universal Header,Visit Pregnancy Birth and Baby" href="https://www.pregnancybirthbaby.org.au/">Visit Pregnancy, Birth and Baby</a>
+            </div>
+          </li>
+          <li data-model="mhc" class="hda-uh_item__has-dropdown style-scope universal-header">
+            <a aria-haspopup="true" data-toggle="mouseover-dropdown" data-google-analytics-category="Universal Header,Visit mindhealthconnect" class="style-scope universal-header" href="//www.mindhealthconnect.org.au/" aria-expanded="false">Mental health</a>
+            <div class="hda-uh-dropdown style-scope universal-header">
+              <img alt="Mindhealth connect logo" src="https://www.healthdirect.gov.au/components/universal-header/images/uh-logo-mhc.png" class="style-scope universal-header" />
+              <p class="style-scope universal-header">Find trusted mental health and wellbeing information, programs and other support</p>
+              <a class="hda-uh_item-visit-mhc style-scope universal-header" data-google-analytics-category="Universal Header,Visit mindhealthconnect" href="https://www.mindhealthconnect.org.au/">Visit mindhealthconnect</a>
+            </div>
+          </li>
+          <li data-model="mac" class="hda-uh_item__has-dropdown style-scope universal-header">
+            <a aria-haspopup="true" data-toggle="mouseover-dropdown" data-google-analytics-category="Universal Header,Visit My Aged Care" class="style-scope universal-header" href="//www.myagedcare.gov.au/" aria-expanded="false">Aged care</a>
+            <div class="hda-uh-dropdown style-scope universal-header">
+              <img alt="My aged care logo" src="https://www.healthdirect.gov.au/components/universal-header/images/uh-logo-mac.png" class="style-scope universal-header" />
+              <p class="style-scope universal-header">Access information to help you navigate the aged care system</p>
+              <a class="hda-uh_item-visit-mac style-scope universal-header" data-google-analytics-category="Universal Header,Visit My Aged Care" href="https://www.myagedcare.gov.au/">Visit My Aged Care</a>
+            </div>
+          </li>
+          <li data-model="carer" class="hda-uh_item__has-dropdown style-scope universal-header">
+            <a aria-haspopup="true" data-toggle="mouseover-dropdown" data-google-analytics-category="Universal Header,Visit Carer Gateway" class="style-scope universal-header" href="//www.carergateway.gov.au/" aria-expanded="false">Caring for someone</a>
+            <div class="hda-uh-dropdown style-scope universal-header">
+              <img alt="carer gateway logo" src="https://www.healthdirect.gov.au/components/universal-header/images/uh-logo-carer.png" class="style-scope universal-header" />
+              <p class="style-scope universal-header">A great place to start for support and services</p>
+              <a class="hda-uh_item-visit-carer style-scope universal-header" data-google-analytics-category="Universal Header,Visit Carer Gateway" href="https://www.carergateway.gov.au/">Visit Carer Gateway</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </universal-header>
+                  
+<header class="hda-head">
+    <div class="hda-head_content">
+        <div class="hda-head_content-common">
+            <div class="hda-head_col-logo">
+                <a class="hda-head_col-logo-link" href="/">
+                    <img alt="healthdirect australia logo" src="/assets/images/logo-hda.svg" class="hda-head_col-logo-img" />
+                </a>
+            </div>
+
+
+            <div class="hda-head_col-mob-menu mobile-only">
+                <button aria-expanded="false" aria-haspopup="true" class="hda-head_col-mob-menu-btn">
+                    <i class="hda-head_col-mob-menu-btn-icon" aria-hidden="true"></i> Menu
+                </button>
+            </div>
+            <div class="hda-head_col-tagline">
+                <h1 class="hda-head_col-tagline-line"><span class="sr-only">Healthdirect </span><span>Free Australian health advice you can count on.</span></h1>
+            </div>
+            <div class="hda-head_content-common-print">
+                <p>Medical problem? Call 1800 022 222. If you need urgent medical help, call triple zero immediately</p>
+                <p>healthdirect Australia is a free service where you can talk to a nurse or doctor who can help you know what to do.</p>
+            </div>
+        </div>
+
+        <div class="hda-head_menu-row">
+            <!-- Tablet menu -->
+            <div class="hda-head_menu-row-tablet device-only">
+                
+            <!-- Primary search block -->
+            <form class="hda-head_menu-row-tablet-search" id="search-form-node-mobile-mode">
+                <input type="text" aria-owns="typeahead-00H-173" aria-expanded="false" aria-autocomplete="list" aria-label="Enter your search terms" title="Suggestion options" placeholder="Search our site" name="searchterm" autocomplete="off" class="hda-head_menu-row-tablet-search-field" id="header-search" tabindex="0" />
+                <ul position="position" role="listbox" class="dropdown-menu hda-head_menu-row-tablet-search-list">
+                    
+                </ul>
+                <button type="button" class="hda-head_menu-row-tablet-search-submit" tabindex="0">
+                  <i class="hda-head_menu-row-tablet-search-icon" aria-hidden="true"></i>
+                </button>
+            </form>
+            <script type="text/javascript">
+                primarySearch('node-mobile-mode');
+            </script>
+        
+            </div>
+
+            <nav class="hda-head_menu-row-bar">
+                <!-- Tablet and Desktop menu -->
+
+              <ul class="hda-head_menu-row-bar-nav">
+                <li class="hda-head_menu-row-bar-nav-level-1-item">
+                  <a href="/">Home</a>
+                </li>
+                <li class="hda-head_menu-row-bar-nav-level-1-item">
+                  <button aria-expanded="false" aria-haspopup="true" class="hda-js-has-secondary-menu">Health topics A-Z <i class="hda-head_menu-row-bar-nav-dropdown-icon" aria-hidden="true"></i></button>
+                  <div class="hda-head_menu-row-bar-nav-level-2">
+                    
+
+                <ul>
+                    <li class="hda-head_menu-row-bar-nav-level-2-item tablet-up">
+                        <a class="hda-head_menu-row-bar-nav-level-2-heading" href="/health-topics/conditions">Conditions</a>
+                        <a href="/gastroenteritis">Gastroenteritis</a>
+                        <a href="/skin-conditions">Skin Conditions</a>
+                        <a href="/whooping-cough">Whooping Cough</a>
+                    </li>
+                    <li class="hda-head_menu-row-bar-nav-level-2-item tablet-up">
+                        <a class="hda-head_menu-row-bar-nav-level-2-heading" href="/health-topics/symptoms">Symptoms</a>
+                        <a href="/abdominal-pain">Abdominal Pain</a>
+                        <a href="/bites-and-stings">Bites and Stings</a>
+                        <a href="/diarrhoea">Diarrhoea</a>
+                    </li>
+                    <li class="hda-head_menu-row-bar-nav-level-2-item tablet-up">
+                        <a class="hda-head_menu-row-bar-nav-level-2-heading" href="/life-stages">Life stages</a>
+                        <a href="/babies-and-toddlers-health">Babies and toddlers</a>
+                        <a href="/kids-health">Kids</a>
+                        <a href="/seniors-health">Seniors</a>
+                    </li>
+                    <li class="hda-head_menu-row-bar-nav-level-2-item__a-z">
+                        <a class="hda-head_menu-row-bar-nav-level-2-heading" href="/health-topics">All topics</a>
+                        <a href="/health-topics/A">A</a>
+                        <a href="/health-topics/B">B</a>
+                        <a href="/health-topics/C">C</a>
+                        <a href="/health-topics/D">D</a>
+                        <a href="/health-topics/E">E</a>
+                        <a href="/health-topics/F">F</a>
+                        <a href="/health-topics/G">G</a>
+                        <a href="/health-topics/H">H</a>
+                        <a href="/health-topics/I">I</a>
+                        <a href="/health-topics/J">J</a>
+                        <a href="/health-topics/K">K</a>
+                        <a href="/health-topics/L">L</a>
+                        <a href="/health-topics/M">M</a>
+                        <a href="/health-topics/N">N</a>
+                        <a href="/health-topics/O">O</a>
+                        <a href="/health-topics/P">P</a>
+                        <a href="/health-topics/Q">Q</a>
+                        <a href="/health-topics/R">R</a>
+                        <a href="/health-topics/S">S</a>
+                        <a href="/health-topics/T">T</a>
+                        <a href="/health-topics/U">U</a>
+                        <a href="/health-topics/V">V</a>
+                        <a href="/health-topics/W">W</a>
+                        <a href="/health-topics/X">X</a>
+                        <a href="/health-topics/Y">Y</a>
+                        <a href="/health-topics/Z">Z</a>
+                    </li>
+                </ul>
+        
+                  </div>
+                </li>
+                <li class="hda-head_menu-row-bar-nav-level-1-item">
+                  <a href="/medicines">Medicines</a>
+                </li>
+                <li class="hda-head_menu-row-bar-nav-level-1-item">
+                  <a href="/symptom-checker">Symptom checker</a>
+                </li>
+                <li class="hda-head_menu-row-bar-nav-level-1-item">
+                  <a href="/australian-health-services">Service finder</a>
+                </li>
+
+                <li class="ng-scope desktop-only">
+                    
+            <!-- Primary search block -->
+            <form class="hda-head_menu-row-tablet-search" id="search-form-node-desktop-mode">
+                <input type="text" aria-owns="typeahead-00H-173" aria-expanded="false" aria-autocomplete="list" aria-label="Enter your search terms" title="Suggestion options" placeholder="Search our site" name="searchterm" autocomplete="off" class="hda-head_menu-row-tablet-search-field" id="header-search" tabindex="0" />
+                <ul position="position" role="listbox" class="dropdown-menu hda-head_menu-row-tablet-search-list">
+                    
+                </ul>
+                <button type="button" class="hda-head_menu-row-tablet-search-submit" tabindex="0">
+                  <i class="hda-head_menu-row-tablet-search-icon" aria-hidden="true"></i>
+                </button>
+            </form>
+            <script type="text/javascript">
+                primarySearch('node-desktop-mode');
+            </script>
+        
+                </li>
+
+              </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="hda-head_mobile-screen mobile-only"></div>
+
+
+    <nav class="hda-head_mobile-menu mobile-only">
+        <header>Menu <button class="hda-head_mobile-menu-btn-close">Close <i class="hda-head_mobile-menu-btn-close-icon" aria-hidden="true"></i></button></header>
+        <ul class="hda-head_mobile-menu-lvl-1">
+            <li>
+                <a href="/">Home <i class="hda-head_mobile-menu-icon" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a data-ga-finder="Top menu,Health topics A-Z,#" href="#">Health topics A-Z <i class="hda-head_mobile-menu-icon" aria-hidden="true"></i></a>
+                <ul class="hda-head_mobile-menu-lvl-2">
+                    <li>
+                        <a href="/health-topics/conditions">Conditions <i class="hda-head_mobile-menu-icon" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="/health-topics/symptoms">Symptoms <i class="hda-head_mobile-menu-icon" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="/life-stages">Life stages <i class="hda-head_mobile-menu-icon" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="/health-topics">All topics <i class="hda-head_mobile-menu-icon" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="/medicines">Medicines <i class="hda-head_mobile-menu-icon" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="/symptom-checker">Symptom checker <i class="hda-head_mobile-menu-icon" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="/australian-health-services">Service finder <i class="hda-head_mobile-menu-icon" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+
+    <script type="text/javascript">
+        initHeader();
+    </script>
+
+</header>
+
+                  
+      <section class="main">
+
+        <section class="main_content-search-results">
+          <div class="main_content-col-left">
+
+            <div id="socialsharebuttonanchor" class="floating-header-offset mobile-only"></div>
+            <div class="main_content-col-left-tools mobile-only">
+              
+            <div class="social-section_share socialshare-node-mobile-mode">
+                <div class="social-section_share-platforms">
+                    <button class="social-section_share-platforms-print"><i class="social-icon_print" aria-hidden="true"></i> PRINT</button>
+                    <div class="social-section_share-platforms-group">
+                        <button aria-expanded="false" aria-haspopup="false" class="social-section_share-platforms-group-btn"><i class="dor-icon_share" aria-hidden="true"></i> SHARE</button>
+                        <div class="social-section_share-platforms-group-menu">
+                            <div class="social-section_share-platforms-group-menu-tail"></div>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.healthdirect.gov.au/search-results/asthma" target="_blank" rel="nofollow" title="Share this page on Facebook"><i class="social-icon_facebook" aria-hidden="true"></i><span class="sr-only">share via Facebook</span></a>
+                            <a href="https://twitter.com/intent/tweet?text=Search%20results%20for:%20asthma%20-%20Healthdirect&amp;url=https://www.healthdirect.gov.au/search-results/asthma" target="_blank" rel="nofollow" title="Share this page on Twitter"><i class="social-icon_twitter" aria-hidden="true"></i><span class="sr-only">share via Twitter</span></a>
+                            <a href="https://plus.google.com/share?url=https://www.healthdirect.gov.au/search-results/asthma" rel="nofollow" target="_blank" title="Share this page on Google Plus"><i class="social-icon_google" aria-hidden="true"></i><span class="sr-only">share via Google Plus</span></a>
+                            <button class="share-email-button"><i class="social-icon_email" aria-hidden="true"></i><span class="sr-only">share via Email</span></button>
+
+                            <div class="popup-content hidden">
+                                <form class="social-section_share-form" novalidate="" name="shareForm">
+                                    <header class="dor-modal_body-header">
+                                        <h2>Share via email</h2>
+                                        <div tabindex="0" class="form-error-list dor-form_error-area hidden">
+                                            <p>There is a total of <span>5</span> error<span>s</span> on this form, details are below.</p>
+                                            <ul>
+                                                <li class="hidden" id="txtNameErrorLabelList"><a href="#txtName">Please enter your name</a></li>
+                                                <li class="hidden" id="txtFromEmailErrorLabelList"><a href="#txtFromEmail">Please enter your email</a></li>
+                                                <li class="hidden" id="txtFromEmailErrorLabel1List"><a href="#txtFromEmail">Your email is invalid. Please check and try again</a></li>
+                                                <li class="hidden" id="txtToEmailErrorLabelList"><a href="#txtToEmail">Please enter recipient's email</a></li>
+                                                <li class="hidden" id="txtToEmailErrorLabel1List"><a href="#txtToEmail">Recipient's email is invalid. Please check and try again</a></li>
+                                                <li class="hidden" id="termsChkErrorLabelList"><a href="#chkTerms">Agree to Terms required</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="dor-form_success-area hidden">
+                                            Thank you for sharing our content. A message has been sent to your recipient's email address with a link to the content webpage.
+                                        </div>
+                                    </header>
+                                    <section class="dor-modal_body-main">
+                                            <section>
+                                                <div class="dor-form_input-group">
+                                                    <label id="lblName">Your name: <span class="dor-form_required">*</span><span class="sr-only"> is required</span></label>
+                                                    <p class="dor-form_input-group-error hidden" id="txtNameErrorLabel"><span class="sr-only">Error: </span>This is required</p>
+                                                    <div class="dor-text-input_group">
+                                                        <i class="dor-icon_user" aria-hidden="true"></i>
+                                                        <input type="text" required="" aria-invalid="false" aria-describedby="txtNameErrorLabel" aria-labelledby="lblName" maxlength="50" name="shareFromName" id="txtName" class="dor-text-input_group-txt-input" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="dor-form_input-group">
+                                                    <label id="lblFromEmail">Your email: <span class="dor-form_required">*</span><span class="sr-only"> is required</span></label>
+                                                    <p class="dor-form_input-group-error hidden" id="txtFromEmailErrorLabel"><span class="sr-only">Error: </span>This is required</p>
+                                                    <p class="dor-form_input-group-error hidden" id="txtFromEmailErrorLabel1"><span class="sr-only">Error: </span>Not a valid value</p>
+
+                                                    <div class="dor-text-input_group">
+                                                        <i class="dor-icon_envelope" aria-hidden="true"></i>
+                                                        <input type="email" data-pattern="^[_a-zA-Z0-9]+(\.[_a-zA-Z0-9]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,4})" required="" aria-invalid="false" aria-describedby="txtFromEmailErrorLabel txtFromEmailErrorLabel1" aria-labelledby="lblFromEmail" maxlength="50" name="shareFromEmail" id="txtFromEmail" class="dor-text-input_group-txt-input" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="dor-form_input-group">
+                                                    <label id="lblToEmail">Send to: <span class="dor-form_required">*</span><span class="sr-only"> is required</span></label>
+                                                    <p class="dor-form_input-group-error hidden" id="txtToEmailErrorLabel"><span class="sr-only">Error: </span>This is required</p>
+                                                    <p class="dor-form_input-group-error hidden" id="txtToEmailErrorLabel1"><span class="sr-only">Error: </span>Not a valid value</p>
+
+                                                    <div class="dor-text-input_group">
+                                                        <i class="dor-icon_envelope" aria-hidden="true"></i>
+                                                        <input type="email" data-pattern="^[_a-zA-Z0-9]+(\.[_a-zA-Z0-9]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,4})" required="" aria-invalid="false" aria-describedby="txtToEmailErrorLabel txtToEmailErrorLabel1" maxlength="50" aria-labelledby="lblToEmail" name="shareToEmail" id="txtToEmail" class="dor-text-input_group-txt-input" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="dor-form_input-group">
+                                                    <p class="dor-form_input-group-error hidden" id="termsChkErrorLabel"><span class="sr-only">Error: </span>This is required</p>
+                                                    <label aria-describedby="termsChkErrorLabel" class="dor-chkrdo_group" id="chkTerms">
+                                                        <input type="checkbox" required="" name="terms" class="checkbox-group-input" id="termsChk" /> I have read and agree to the <a target="_blank" href="/terms-of-use">Terms of Use</a> and <a target="_blank" href="/privacy-policy">Privacy Policy</a>. <span class="dor-form_required">*</span><span class="sr-only"> is required</span>
+                                                        <i class="dor-chkrdo_group__off" aria-hidden="true"></i>
+                                                        <i class="dor-chkrdo_group__on" aria-hidden="true"></i>
+                                                    </label>
+                                                </div>
+                                            </section>
+                                    </section>
+                                    <footer class="dor-modal_body-footer">
+                                        <button title="Send to a friend via email" type="submit" class="dor-modal_body-footer-action">Submit</button>
+                                    </footer>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script type="text/javascript">
+                initialiseSocialShare('socialshare-node-mobile-mode', 'https://www.healthdirect.gov.au/search-results/asthma');
+            </script>
+        
+            </div>
+            <main class="main_content-article-text">
+              <header>
+                <a id="main_content-text"><span class="sr-only">beginning of content</span></a>
+                <h1>Search results for: <small>"asthma"</small></h1>
+              </header>
+            </main>
+            <div class="main_content-general-text">
+               <section class="main_content-search-results-partners veyron-search-results" id="searchResults">
+                  
+                  
+
+      <a title="Check symptoms" href="/symptom-checker/tool?symptom=GNRC" data-ng-show="showPanel" class="sym-panel-search-results-mode">
+        <h2>Symptom checker</h2>
+        <p>Our Symptom checker provides clinical advice on what to do next based on your symptoms.</p>
+        <button class="widget-sym-btn">Asthma</button>
+      </a>
+
+
+    
+                  
+                  
+
+
+      
+      <div class="veyron-local-search-refine show">
+        <button class="main_content-search-filter-btn veyron-refine-btn">Refine <i class="main_content-search-filter-btn-ico-open"></i><i class="main_content-search-filter-btn-ico-close hidden"></i></button>
+        <div class="veyron-refine-filter hidden">
+          <h4>Life stage</h4>
+          <form>
+            <ul class="main_content-search-filter-list veyron-search-results-refine-list"><li class="veyron-refine-item">
+                <label class="dor-chkrdo_group">
+                  <input type="checkbox" value="Children" />Children (5)<i class="chk__off" aria-hidden="true"></i>
+                  <i class="chk__on" aria-hidden="true"></i>
+                </label>
+              </li><li class="veyron-refine-item">
+                <label class="dor-chkrdo_group">
+                  <input type="checkbox" value="Babies and Toddlers" />Babies and Toddlers (3)<i class="chk__off" aria-hidden="true"></i>
+                  <i class="chk__on" aria-hidden="true"></i>
+                </label>
+              </li><li class="veyron-refine-item">
+                <label class="dor-chkrdo_group">
+                  <input type="checkbox" value="Pregnancy" />Pregnancy (2)<i class="chk__off" aria-hidden="true"></i>
+                  <i class="chk__on" aria-hidden="true"></i>
+                </label>
+              </li><li class="veyron-refine-item">
+                <label class="dor-chkrdo_group">
+                  <input type="checkbox" value="Teenagers" />Teenagers (1)<i class="chk__off" aria-hidden="true"></i>
+                  <i class="chk__on" aria-hidden="true"></i>
+                </label>
+              </li><li class="veyron-refine-item">
+                <label class="dor-chkrdo_group">
+                  <input type="checkbox" value="Women's Health" />Women's Health (1)<i class="chk__off" aria-hidden="true"></i>
+                  <i class="chk__on" aria-hidden="true"></i>
+                </label>
+              </li><li class="veyron-refine-item">
+                <label class="dor-chkrdo_group">
+                  <input type="checkbox" value="Young Adults" />Young Adults (1)<i class="chk__off" aria-hidden="true"></i>
+                  <i class="chk__on" aria-hidden="true"></i>
+                </label>
+              </li></ul>
+          </form>
+        </div>
+      </div>
+
+
+      <div class="veyron-local-search-results-list">
+        
+
+      <a class="main_content-search-tile veyron-local-result-item" href="/asthma">
+        <h4>Asthma</h4>
+        <p>Trusted information about asthma including what it is, causes, symptoms, diagnosis, treatments, prevention, services and support.</p>
+        <p class="main_content-search-tile-read-more__search">Read more</p>
+      </a>
+
+    
+        
+          
+            
+
+      <a class="main_content-search-tile veyron-local-result-item" href="/asthma-symptoms">
+        <h4>Asthma symptoms</h4>
+        <p>Trusted information on asthma symptoms and signs of an asthma attack, and links to trusted resources</p>
+        <p class="main_content-search-tile-read-more__search">Read more</p>
+      </a>
+
+    
+          
+            
+
+      <a class="main_content-search-tile veyron-local-result-item" href="/asthma-treatments">
+        <h4>Asthma treatment</h4>
+        <p>Trusted information on asthma treatments and medications, managing your asthma, and links to trusted resources</p>
+        <p class="main_content-search-tile-read-more__search">Read more</p>
+      </a>
+
+    
+          
+            
+
+      <a class="main_content-search-tile veyron-local-result-item" href="/complications-of-asthma">
+        <h4>Complications of asthma</h4>
+        <p>Asthma can result in additional complications. Learn more about common asthma complications from the information and links to trusted resources on this page.</p>
+        <p class="main_content-search-tile-read-more__search">Read more</p>
+      </a>
+
+    
+          
+            
+
+      <a class="main_content-search-tile veyron-local-result-item" href="/asthma-medication">
+        <h4>Asthma medication</h4>
+        <p>Most asthma medications are taken using an inhaler, or puffer device. You can find out more about asthma medications by reading our trusted partner pages.</p>
+        <p class="main_content-search-tile-read-more__search">Read more</p>
+      </a>
+
+    
+          
+            
+
+      <a class="main_content-search-tile veyron-local-result-item" href="/what-causes-asthma">
+        <h4>What causes asthma?</h4>
+        <p>Trusted information on the causes of asthma and factors that increase the likelihood of developing asthma, and links to trusted resources</p>
+        <p class="main_content-search-tile-read-more__search">Read more</p>
+      </a>
+
+    
+          
+            
+
+      <a class="main_content-search-tile veyron-local-result-item" href="/asthma-statistics">
+        <h4>Asthma statistics</h4>
+        <p>Statistical information, facts and figures about asthma, plus links to trusted resources.</p>
+        <p class="main_content-search-tile-read-more__search">Read more</p>
+      </a>
+
+    
+          
+            
+
+      <a class="main_content-search-tile veyron-local-result-item" href="/how-to-use-an-asthma-inhaler">
+        <h4>How to use an asthma inhaler</h4>
+        <p>Use your asthma inhaler correctly to get the full benefit of the medicine. This page contains tips and videos to help you take your asthma medicine properly.</p>
+        <p class="main_content-search-tile-read-more__search">Read more</p>
+      </a>
+
+    
+          
+            
+
+      <a class="main_content-search-tile veyron-local-result-item" href="/asthma-prevention">
+        <h4>Asthma prevention</h4>
+        <p>Trusted information on asthma prevention and how to keep it under control, and links to trusted resources</p>
+        <p class="main_content-search-tile-read-more__search">Read more</p>
+      </a>
+
+    
+          
+            
+
+      <a class="main_content-search-tile veyron-local-result-item" href="/living-with-asthma">
+        <h4>Living with asthma</h4>
+        <p>If you have been diagnosed with asthma, discover ways to comfortably manage your daily life by reading the tips on this page.</p>
+        <p class="main_content-search-tile-read-more__search">Read more</p>
+      </a>
+
+    
+          
+            
+
+      <a class="main_content-search-tile veyron-local-result-item" href="/asthma-and-pregnancy">
+        <h4>Asthma and pregnancy</h4>
+        <p>Trusted information on asthma and pregnancy including the effects, managing it, giving birth and breastfeeding, plus links to trusted resources.</p>
+        <p class="main_content-search-tile-read-more__search">Read more</p>
+      </a>
+
+    
+          
+
+        
+      </div>
+
+      <section class="main_content-search-show-more">
+        <button rel="nofollow" title="Show more search results" class="main_content-search-show-more-btn veyron-local-search-show-more-btn">Show more</button>
+      </section>
+
+    
+                  
+               </section>
+            </div>
+          </div>
+          
+
+
+    <aside class="main_content-col-right print-hidden">
+        <section>
+            
+            <div class="social-section_share socialshare-node-desktop-mode">
+                <div class="social-section_share-platforms">
+                    <button class="social-section_share-platforms-print"><i class="social-icon_print" aria-hidden="true"></i> PRINT</button>
+                    <div class="social-section_share-platforms-group">
+                        <button aria-expanded="false" aria-haspopup="false" class="social-section_share-platforms-group-btn"><i class="dor-icon_share" aria-hidden="true"></i> SHARE</button>
+                        <div class="social-section_share-platforms-group-menu">
+                            <div class="social-section_share-platforms-group-menu-tail"></div>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.healthdirect.gov.au/search-results/asthma" target="_blank" rel="nofollow" title="Share this page on Facebook"><i class="social-icon_facebook" aria-hidden="true"></i><span class="sr-only">share via Facebook</span></a>
+                            <a href="https://twitter.com/intent/tweet?text=Search%20results%20for:%20asthma%20-%20Healthdirect&amp;url=https://www.healthdirect.gov.au/search-results/asthma" target="_blank" rel="nofollow" title="Share this page on Twitter"><i class="social-icon_twitter" aria-hidden="true"></i><span class="sr-only">share via Twitter</span></a>
+                            <a href="https://plus.google.com/share?url=https://www.healthdirect.gov.au/search-results/asthma" rel="nofollow" target="_blank" title="Share this page on Google Plus"><i class="social-icon_google" aria-hidden="true"></i><span class="sr-only">share via Google Plus</span></a>
+                            <button class="share-email-button"><i class="social-icon_email" aria-hidden="true"></i><span class="sr-only">share via Email</span></button>
+
+                            <div class="popup-content hidden">
+                                <form class="social-section_share-form" novalidate="" name="shareForm">
+                                    <header class="dor-modal_body-header">
+                                        <h2>Share via email</h2>
+                                        <div tabindex="0" class="form-error-list dor-form_error-area hidden">
+                                            <p>There is a total of <span>5</span> error<span>s</span> on this form, details are below.</p>
+                                            <ul>
+                                                <li class="hidden" id="txtNameErrorLabelList"><a href="#txtName">Please enter your name</a></li>
+                                                <li class="hidden" id="txtFromEmailErrorLabelList"><a href="#txtFromEmail">Please enter your email</a></li>
+                                                <li class="hidden" id="txtFromEmailErrorLabel1List"><a href="#txtFromEmail">Your email is invalid. Please check and try again</a></li>
+                                                <li class="hidden" id="txtToEmailErrorLabelList"><a href="#txtToEmail">Please enter recipient's email</a></li>
+                                                <li class="hidden" id="txtToEmailErrorLabel1List"><a href="#txtToEmail">Recipient's email is invalid. Please check and try again</a></li>
+                                                <li class="hidden" id="termsChkErrorLabelList"><a href="#chkTerms">Agree to Terms required</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="dor-form_success-area hidden">
+                                            Thank you for sharing our content. A message has been sent to your recipient's email address with a link to the content webpage.
+                                        </div>
+                                    </header>
+                                    <section class="dor-modal_body-main">
+                                            <section>
+                                                <div class="dor-form_input-group">
+                                                    <label id="lblName">Your name: <span class="dor-form_required">*</span><span class="sr-only"> is required</span></label>
+                                                    <p class="dor-form_input-group-error hidden" id="txtNameErrorLabel"><span class="sr-only">Error: </span>This is required</p>
+                                                    <div class="dor-text-input_group">
+                                                        <i class="dor-icon_user" aria-hidden="true"></i>
+                                                        <input type="text" required="" aria-invalid="false" aria-describedby="txtNameErrorLabel" aria-labelledby="lblName" maxlength="50" name="shareFromName" id="txtName" class="dor-text-input_group-txt-input" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="dor-form_input-group">
+                                                    <label id="lblFromEmail">Your email: <span class="dor-form_required">*</span><span class="sr-only"> is required</span></label>
+                                                    <p class="dor-form_input-group-error hidden" id="txtFromEmailErrorLabel"><span class="sr-only">Error: </span>This is required</p>
+                                                    <p class="dor-form_input-group-error hidden" id="txtFromEmailErrorLabel1"><span class="sr-only">Error: </span>Not a valid value</p>
+
+                                                    <div class="dor-text-input_group">
+                                                        <i class="dor-icon_envelope" aria-hidden="true"></i>
+                                                        <input type="email" data-pattern="^[_a-zA-Z0-9]+(\.[_a-zA-Z0-9]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,4})" required="" aria-invalid="false" aria-describedby="txtFromEmailErrorLabel txtFromEmailErrorLabel1" aria-labelledby="lblFromEmail" maxlength="50" name="shareFromEmail" id="txtFromEmail" class="dor-text-input_group-txt-input" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="dor-form_input-group">
+                                                    <label id="lblToEmail">Send to: <span class="dor-form_required">*</span><span class="sr-only"> is required</span></label>
+                                                    <p class="dor-form_input-group-error hidden" id="txtToEmailErrorLabel"><span class="sr-only">Error: </span>This is required</p>
+                                                    <p class="dor-form_input-group-error hidden" id="txtToEmailErrorLabel1"><span class="sr-only">Error: </span>Not a valid value</p>
+
+                                                    <div class="dor-text-input_group">
+                                                        <i class="dor-icon_envelope" aria-hidden="true"></i>
+                                                        <input type="email" data-pattern="^[_a-zA-Z0-9]+(\.[_a-zA-Z0-9]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,4})" required="" aria-invalid="false" aria-describedby="txtToEmailErrorLabel txtToEmailErrorLabel1" maxlength="50" aria-labelledby="lblToEmail" name="shareToEmail" id="txtToEmail" class="dor-text-input_group-txt-input" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="dor-form_input-group">
+                                                    <p class="dor-form_input-group-error hidden" id="termsChkErrorLabel"><span class="sr-only">Error: </span>This is required</p>
+                                                    <label aria-describedby="termsChkErrorLabel" class="dor-chkrdo_group" id="chkTerms">
+                                                        <input type="checkbox" required="" name="terms" class="checkbox-group-input" id="termsChk" /> I have read and agree to the <a target="_blank" href="/terms-of-use">Terms of Use</a> and <a target="_blank" href="/privacy-policy">Privacy Policy</a>. <span class="dor-form_required">*</span><span class="sr-only"> is required</span>
+                                                        <i class="dor-chkrdo_group__off" aria-hidden="true"></i>
+                                                        <i class="dor-chkrdo_group__on" aria-hidden="true"></i>
+                                                    </label>
+                                                </div>
+                                            </section>
+                                    </section>
+                                    <footer class="dor-modal_body-footer">
+                                        <button title="Send to a friend via email" type="submit" class="dor-modal_body-footer-action">Submit</button>
+                                    </footer>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script type="text/javascript">
+                initialiseSocialShare('socialshare-node-desktop-mode', 'https://www.healthdirect.gov.au/search-results/asthma');
+            </script>
+        
+        </section>
+
+
+        
+        
+
+        <section layout="sidebar" data-semantic-links="semanticLinks" data-ng-show="symptom" class="widget-sym ng-isolate-scope">
+            <h2>Symptom checker</h2>
+            <p><strong class="ng-binding">Worried about your health?</strong></p><p>Select a symptom, answer some questions, get advice.</p>
+            <a title="Check symptoms" href="/symptom-checker/tool?symptom=GNRC" class="widget-sym-btn">Start Your Symptom Check</a>
+        </section>
+
+    
+        
+
+            <section class="hsf-panel-node-sidebar-mode">
+                <form novalidate="" name="serviceFinderForm" data-old-class="hsf-form">
+
+                    
+                    <fieldset class="hsf-form_services">
+                      <legend class="sr-only">service category</legend>
+                      <h2>Find a health service</h2>
+
+                      
+            <section class="dor-form_error-area hidden veyron-hsf-panel-error-list">
+              <ul>
+                <li>Please enter a suburb or postcode of your location and select from the list.</li>
+                <li>Unable to find your location. Please enter manually below.</li>
+                <li>Location not found.</li>
+              </ul>
+            </section>
+
+        
+
+                      <div data-old-class="widget-hsf_content-col" class="hsf-form_services-cols">
+                        
+                          <label class="dor-chkrdo_group ">
+                            <input type="radio" checked="checked" value="aht-11222" data-service-name="General Practice" name="selectedServiceType" class="widget-hsf_content-col-rdo veyron-service-type-default" />General Practice
+                            <i class="dor-chkrdo_group__off" aria-hidden="true"></i>
+                            <i class="dor-chkrdo_group__on" aria-hidden="true"></i>
+                          </label>
+                        
+                          <label class="dor-chkrdo_group ">
+                            <input type="radio" value="aht-12243" data-service-name="Pharmacy" name="selectedServiceType" class="widget-hsf_content-col-rdo veyron-service-type-default" />Pharmacy
+                            <i class="dor-chkrdo_group__off" aria-hidden="true"></i>
+                            <i class="dor-chkrdo_group__on" aria-hidden="true"></i>
+                          </label>
+                        
+                          <label class="dor-chkrdo_group ">
+                            <input type="radio" value="aht-10968" data-service-name="Emergency Departments" name="selectedServiceType" class="widget-hsf_content-col-rdo veyron-service-type-default" />Emergency Departments
+                            <i class="dor-chkrdo_group__off" aria-hidden="true"></i>
+                            <i class="dor-chkrdo_group__on" aria-hidden="true"></i>
+                          </label>
+                        
+                          <label class="dor-chkrdo_group ">
+                            <input type="radio" value="aht-11440" data-service-name="Hospitals" name="selectedServiceType" class="widget-hsf_content-col-rdo veyron-service-type-default" />Hospitals
+                            <i class="dor-chkrdo_group__off" aria-hidden="true"></i>
+                            <i class="dor-chkrdo_group__on" aria-hidden="true"></i>
+                          </label>
+                        
+                        <p><a href="/australian-health-services">Need more services?</a></p>
+                      </div>
+                      
+                    </fieldset>
+
+                    
+
+                    <fieldset class="hsf-form_location veyron-hsf-panel-location">
+                      <legend class="sr-only">enter a location</legend>
+                      
+                      
+                      <label>Enter a location</label>
+                      <!-- <div class="widget-hsf_content-col-start"> -->
+                        <!-- <label id="lblWidgetHsfLocation">Enter a location</label> -->
+                        <div data-old-class="widget-hsf_content-col-start-location" class="hsf-form_location-input-group">
+                          <i class="hsf-form_location-input-group-spinner veyron-hsf-panel-spinner hidden" aria-hidden="true"></i>
+                          <i class="hsf-form_location-input-group-icon" aria-hidden="true"></i>
+                          <input type="search" required="" aria-invalid="false" aria-expanded="false" name="locationText" autocomplete="off" aria-haspopup="true" aria-labelledby="lblWidgetHsfLocation" role="combobox" placeholder="Enter postcode or town" class="hsf-form_location-input-group-txt veyron-hsf-panel-location-input" />
+                          <ul class="hsf-form_location-input-group-auto-suggest veyron-hsf-panel-location-auto-suggest-list">
+                              
+                          </ul>
+                        </div>
+                        <label class="dor-chkrdo_group">
+                          <input type="checkbox" class="veyron-hsf-panel-use-current-location-checkbox" />Use current location
+                          <i class="dor-chkrdo_group__off" aria-hidden="true"></i>
+                          <i class="dor-chkrdo_group__on" aria-hidden="true"></i>
+                        </label>
+                        <button name="search" class="hsf-form_location-btn veyron-hsf-panel-search-btn">Find a health service</button>
+                      <!-- </div> -->
+                    </fieldset>
+                </form>
+            </section>
+
+
+            <script type="text/javascript">
+                initHsfPanel('hsf-panel-node-sidebar-mode'  );
+            </script>
+
+        
+
+
+    </aside>
+
+
+
+        </section>
+
+
+
+        <script src="/assets/164/scripts/sitesearchresults.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            initSiteSearch({"url":"/api/search/content/keyword?wt=json&amp;f.partner.facet.limit=-1&amp;f.partner.facet.sort=count&amp;rows=10&amp;start=0&amp;channel=HIN","rejectUnauthorized":false,"headers":{"Accept":"application/json"},"qsStringifyOptions":{"arrayFormat":"repeat"},"qs":{"q":"asthma","fq":["audience_en:(\"Consumers\" OR \"Carers\")","content_type:(\"hdaloc:healthArticle\" or \"hdaloc:theme\" or \"hdaloc:event\" or \"hdaloc:news\" or \"hdaloc:genericContent\")","!source_identifier_01:\"1064ca31-3c67-4fd3-80b1-6d89797fa8b9\""]},"results":{"numFound":78,"start":0,"maxScore":57.362076,"docs":[{"source_system":"ECM001","id":"ECM001|42ec8753-e122-473a-b9d6-84e5514a101d","source_identifier_01":"42ec8753-e122-473a-b9d6-84e5514a101d","source_identifier_02":"asthma-symptoms","friendly_url":"asthma-symptoms","content_type":"hdaloc:healthArticle","partner":"healthdirect","canonical_channel":"HIN","title_en":"Asthma symptoms","description_en":"Trusted information on asthma symptoms and signs of an asthma attack, and links to trusted resources","associated_media_objects":["{\"assetId\":\"4148\",\"title\":\"boy-asthma-inhaler_h.jpg\",\"altText\":\"Asthma symptoms include a cough, wheezing, chest tightness and breathlessness.\",\"description\":\"\",\"contentType\":\"IMAGE\",\"position\":0,\"language\":\"en-AU\",\"imageType\":[\"BANNER\"],\"url\":\"boy-asthma-inhaler_h\"}"],"subject_uri":["http://thesaurus.healthdirect.org.au/aht/10209","http://thesaurus.healthdirect.org.au/aht/14127","http://thesaurus.healthdirect.org.au/aht/14078"],"subject_en":["Wheezing","Cough","Asthma"],"timestamp":"2017-08-03T03:42:20.741Z","score":57.362076},{"source_system":"ECM001","id":"ECM001|5ca5e807-7780-4c7b-895a-b9f9311c9c4e","source_identifier_01":"5ca5e807-7780-4c7b-895a-b9f9311c9c4e","source_identifier_02":"asthma-treatments","friendly_url":"asthma-treatments","content_type":"hdaloc:healthArticle","partner":"healthdirect","canonical_channel":"HIN","title_en":"Asthma treatment","description_en":"Trusted information on asthma treatments and medications, managing your asthma, and links to trusted resources","associated_media_objects":["{\"assetId\":\"4148\",\"title\":\"boy-asthma-inhaler_h.jpg\",\"altText\":\"Asthma symptoms include a cough, wheezing, chest tightness and breathlessness.\",\"description\":\"\",\"contentType\":\"IMAGE\",\"position\":0,\"language\":\"en-AU\",\"imageType\":[\"BANNER\"],\"url\":\"boy-asthma-inhaler_h\"}"],"subject_uri":["http://thesaurus.healthdirect.org.au/aht/10209","http://thesaurus.healthdirect.org.au/aht/12935","http://thesaurus.healthdirect.org.au/aht/11961","http://thesaurus.healthdirect.org.au/aht/10148"],"subject_en":["Anti-Asthmatic Agents","Asthma","Treatment","Nebulisers and Vapourisers"],"timestamp":"2017-08-03T03:42:20.795Z","score":57.107},{"source_system":"ECM001","id":"ECM001|cef8f24f-4dd9-43d6-9e85-e4b1d8932b66","source_identifier_01":"cef8f24f-4dd9-43d6-9e85-e4b1d8932b66","source_identifier_02":"complications-of-asthma","friendly_url":"complications-of-asthma","content_type":"hdaloc:healthArticle","partner":"healthdirect","canonical_channel":"HIN","title_en":"Complications of asthma","description_en":"Asthma can result in additional complications. Learn more about common asthma complications from the information and links to trusted resources on this page.","associated_media_objects":["{\"assetId\":\"4148\",\"title\":\"boy-asthma-inhaler_h.jpg\",\"altText\":\"Asthma symptoms include a cough, wheezing, chest tightness and breathlessness.\",\"description\":\"\",\"contentType\":\"IMAGE\",\"position\":0,\"language\":\"en-AU\",\"imageType\":[\"BANNER\"],\"url\":\"boy-asthma-inhaler_h\"}"],"subject_uri":["http://thesaurus.healthdirect.org.au/aht/10598","http://thesaurus.healthdirect.org.au/aht/10209"],"subject_en":["Complications","Asthma"],"timestamp":"2017-08-03T03:42:20.864Z","score":56.650818},{"source_system":"ECM001","id":"ECM001|737548f1-d563-4e9a-9bf6-43d5e47782cb","source_identifier_01":"737548f1-d563-4e9a-9bf6-43d5e47782cb","source_identifier_02":"asthma-medication","friendly_url":"asthma-medication","content_type":"hdaloc:healthArticle","partner":"healthdirect","canonical_channel":"HIN","title_en":"Asthma medication","description_en":"Most asthma medications are taken using an inhaler, or puffer device. You can find out more about asthma medications by reading our trusted partner pages.","associated_media_objects":["{\"assetId\":\"2348\",\"title\":\"asthma-medication.jpg\",\"altText\":\"Asthma inhaler\",\"description\":\"Asthma inhalers are hand-held portable devices that deliver medication to your lungs.\",\"contentType\":\"IMAGE\",\"position\":0,\"language\":\"en-AU\",\"imageType\":[\"PRIMARY\",\"SECONDARY\"],\"url\":\"asthma-medication\"}","{\"assetId\":\"4131\",\"title\":\"asthma-medication_h.jpg\",\"altText\":\"Asthma inhaler\",\"description\":\"\",\"contentType\":\"IMAGE\",\"position\":1,\"language\":\"en-AU\",\"imageType\":[\"BANNER\"],\"url\":\"asthma-medication_h\"}"],"subject_uri":["http://thesaurus.healthdirect.org.au/aht/10209","http://thesaurus.healthdirect.org.au/aht/11961","http://thesaurus.healthdirect.org.au/aht/14127","http://thesaurus.healthdirect.org.au/aht/10053","http://thesaurus.healthdirect.org.au/aht/10385","http://thesaurus.healthdirect.org.au/aht/10148","http://thesaurus.healthdirect.org.au/aht/12940"],"subject_en":["Bronchodilators","Wheezing","Anti-Asthmatic Agents","Asthma","Chest","Side Effects","Nebulisers and Vapourisers"],"timestamp":"2017-08-03T03:42:20.990Z","score":56.4406},{"source_system":"ECM001","id":"ECM001|b4f44073-dfd7-46f1-b81a-2e2e3d5243ae","source_identifier_01":"b4f44073-dfd7-46f1-b81a-2e2e3d5243ae","source_identifier_02":"what-causes-asthma","friendly_url":"what-causes-asthma","content_type":"hdaloc:healthArticle","partner":"healthdirect","canonical_channel":"HIN","title_en":"What causes asthma?","description_en":"Trusted information on the causes of asthma and factors that increase the likelihood of developing asthma, and links to trusted resources","associated_media_objects":["{\"assetId\":\"4148\",\"title\":\"boy-asthma-inhaler_h.jpg\",\"altText\":\"Asthma symptoms include a cough, wheezing, chest tightness and breathlessness.\",\"description\":\"\",\"contentType\":\"IMAGE\",\"position\":0,\"language\":\"en-AU\",\"imageType\":[\"BANNER\"],\"url\":\"boy-asthma-inhaler_h\"}"],"subject_uri":["http://thesaurus.healthdirect.org.au/aht/14157","http://thesaurus.healthdirect.org.au/aht/10209","http://thesaurus.healthdirect.org.au/aht/14127","http://thesaurus.healthdirect.org.au/aht/12565"],"subject_en":["Wheezing","Precipitating Factors","Asthma","Respiratory Hypersensitivity"],"timestamp":"2017-08-03T03:42:21.075Z","score":56.315353},{"source_system":"ECM001","id":"ECM001|388a64aa-07d8-4b2a-a9e6-fb15e5956d37","source_identifier_01":"388a64aa-07d8-4b2a-a9e6-fb15e5956d37","source_identifier_02":"asthma-statistics","friendly_url":"asthma-statistics","content_type":"hdaloc:healthArticle","partner":"healthdirect","canonical_channel":"HIN","title_en":"Asthma statistics","description_en":"Statistical information, facts and figures about asthma, plus links to trusted resources.","associated_media_objects":["{\"assetId\":\"4148\",\"title\":\"boy-asthma-inhaler_h.jpg\",\"altText\":\"Asthma symptoms include a cough, wheezing, chest tightness and breathlessness.\",\"description\":\"\",\"contentType\":\"IMAGE\",\"position\":0,\"language\":\"en-AU\",\"imageType\":[\"BANNER\"],\"url\":\"boy-asthma-inhaler_h\"}"],"subject_uri":["http://thesaurus.healthdirect.org.au/aht/10209","http://thesaurus.healthdirect.org.au/aht/14255"],"subject_en":["Asthma","Convalescence"],"timestamp":"2017-08-03T03:42:20.699Z","score":56.257805},{"source_system":"ECM001","id":"ECM001|62327723-ca2d-4c31-aeda-de81e7cc3075","source_identifier_01":"62327723-ca2d-4c31-aeda-de81e7cc3075","source_identifier_02":"how-to-use-an-asthma-inhaler","friendly_url":"how-to-use-an-asthma-inhaler","content_type":"hdaloc:healthArticle","partner":"healthdirect","canonical_channel":"HIN","title_en":"How to use an asthma inhaler","description_en":"Use your asthma inhaler correctly to get the full benefit of the medicine. This page contains tips and videos to help you take your asthma medicine properly.","subject_uri":["http://thesaurus.healthdirect.org.au/aht/10209","http://thesaurus.healthdirect.org.au/aht/11961","http://thesaurus.healthdirect.org.au/aht/10894","http://thesaurus.healthdirect.org.au/aht/10148"],"subject_en":["Drug Therapy","Anti-Asthmatic Agents","Asthma","Nebulisers and Vapourisers"],"timestamp":"2017-07-12T04:33:28.573Z","score":56.061737},{"source_system":"ECM001","id":"ECM001|d37fb854-f112-428e-9fa4-5cdc4ef70f92","source_identifier_01":"d37fb854-f112-428e-9fa4-5cdc4ef70f92","source_identifier_02":"asthma-prevention","friendly_url":"asthma-prevention","content_type":"hdaloc:healthArticle","partner":"healthdirect","canonical_channel":"HIN","title_en":"Asthma prevention","description_en":"Trusted information on asthma prevention and how to keep it under control, and links to trusted resources","associated_media_objects":["{\"assetId\":\"4148\",\"title\":\"boy-asthma-inhaler_h.jpg\",\"altText\":\"Asthma symptoms include a cough, wheezing, chest tightness and breathlessness.\",\"description\":\"\",\"contentType\":\"IMAGE\",\"position\":0,\"language\":\"en-AU\",\"imageType\":[\"BANNER\"],\"url\":\"boy-asthma-inhaler_h\"}"],"subject_uri":["http://thesaurus.healthdirect.org.au/aht/10209","http://thesaurus.healthdirect.org.au/aht/12393","http://thesaurus.healthdirect.org.au/aht/12642","http://thesaurus.healthdirect.org.au/aht/10148"],"subject_en":["Self Care","Prophylaxis","Anti-Asthmatic Agents","Asthma"],"timestamp":"2017-08-03T03:42:20.874Z","score":55.932365},{"source_system":"ECM001","id":"ECM001|c82794a8-8a8d-422a-bbcc-e43c941a9330","source_identifier_01":"c82794a8-8a8d-422a-bbcc-e43c941a9330","source_identifier_02":"living-with-asthma","friendly_url":"living-with-asthma","content_type":"hdaloc:healthArticle","partner":"healthdirect","canonical_channel":"HIN","title_en":"Living with asthma","description_en":"If you have been diagnosed with asthma, discover ways to comfortably manage your daily life by reading the tips on this page.","associated_media_objects":["{\"assetId\":\"4148\",\"title\":\"boy-asthma-inhaler_h.jpg\",\"altText\":\"Asthma symptoms include a cough, wheezing, chest tightness and breathlessness.\",\"description\":\"\",\"contentType\":\"IMAGE\",\"position\":0,\"language\":\"en-AU\",\"imageType\":[\"BANNER\"],\"url\":\"boy-asthma-inhaler_h\"}"],"subject_uri":["http://thesaurus.healthdirect.org.au/aht/10209","http://thesaurus.healthdirect.org.au/aht/11761","http://thesaurus.healthdirect.org.au/aht/12561"],"subject_en":["Lung","Respiration","Asthma"],"timestamp":"2017-08-03T03:42:20.743Z","score":55.790436},{"source_system":"ECM001","id":"ECM001|70b5c6c6-41bb-4b74-9eb2-30f167c5fa2d","source_identifier_01":"70b5c6c6-41bb-4b74-9eb2-30f167c5fa2d","source_identifier_02":"asthma-and-pregnancy","friendly_url":"asthma-and-pregnancy","content_type":"hdaloc:healthArticle","partner":"healthdirect","canonical_channel":"HIN","title_en":"Asthma and pregnancy","description_en":"Trusted information on asthma and pregnancy including the effects, managing it, giving birth and breastfeeding, plus links to trusted resources.","associated_media_objects":["{\"assetId\":\"\",\"title\":\"pregnant-woman-asthma-AYA28P.jpg\",\"altText\":\"Pregnant woman using asthma medication\",\"description\":\"\",\"contentType\":\"IMAGE\",\"position\":0,\"language\":\"en-AU\",\"imageType\":[\"PRIMARY\",\"PRIMARY_INDEX\",\"SECONDARY\",\"PRODUCT_PRIMARY\",\"PRODUCT_THUMB\",\"PRODUCT_GROUP\",\"CAROUSEL\",\"VIDEO_INDEX\",\"VIDEO_THUMB\",\"LOGO_PROFILE\",\"LOGO_INDEX\",\"LOGO_STRAP\",\"LOGO_SEARCH\",\"LOGO\"],\"url\":\"pregnant-woman-asthma-AYA28P\"}","{\"assetId\":\"4850\",\"title\":\"asthma-pregnancy_h.jpg\",\"altText\":\"Pregnant woman using asthma medication\",\"description\":\"\",\"contentType\":\"IMAGE\",\"position\":1,\"language\":\"en-AU\",\"imageType\":[\"BANNER\"],\"url\":\"asthma-pregnancy_h\"}"],"subject_uri":["http://thesaurus.healthdirect.org.au/aht/12328","http://thesaurus.healthdirect.org.au/aht/10045","http://thesaurus.healthdirect.org.au/aht/10209","http://thesaurus.healthdirect.org.au/aht/12935","http://thesaurus.healthdirect.org.au/aht/14113"],"subject_en":["Breathing Difficulties","Asthma","Steroids","Treatment","Pregnancy"],"timestamp":"2017-08-03T03:42:20.895Z","score":55.79023}],"apiUrl":"/content/api/search/content/keyword?wt=json&amp;f.partner.facet.limit=-1&amp;f.partner.facet.sort=count&amp;rows=10&amp;start=0&amp;channel=HIN&amp;q=asthma&amp;fq=audience_en%3A%28%22Consumers%22%20OR%20%22Carers%22%29&amp;fq=content_type%3A%28%22hdaloc%3AhealthArticle%22%20or%20%22hdaloc%3Atheme%22%20or%20%22hdaloc%3Aevent%22%20or%20%22hdaloc%3Anews%22%20or%20%22hdaloc%3AgenericContent%22%29&amp;fq=%21source_identifier_01%3A%221064ca31-3c67-4fd3-80b1-6d89797fa8b9%22","facets":{"facet_queries":{},"facet_fields":{"subject_en_facet":["Asthma",15,"Heart Failure",11,"Drug Therapy",7,"Causes",6,"Common Cold",6,"Treatment",6,"Breathing Difficulties",5,"Influenza",5,"Anti-Asthmatic Agents",4,"Children",4],"lifestage_en":["Children",5,"Babies and Toddlers",3,"Pregnancy",2,"Teenagers",1,"Women's Health",1,"Young Adults",1],"partner":["healthdirect",78]},"facet_ranges":{},"facet_intervals":{},"facet_heatmaps":{}}}});
+        </script>
+
+      </section>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","201142693747655");fbq("track","PageView");</script>
+<noscript>&lt;img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=201142693747655&amp;amp;ev=PageView&amp;amp;noscript=1"&gt;</noscript>
+
+
+
+
+
+
+
+    
+                  
+                  
+            
+            
+                  <div>
+                    <section class="main_content-article-helper mobile-only">
+                      <a href="/symptom-checker/tool?symptom=GNRC" class="main_content-article-helper-sym">Check your symptoms</a>
+                      <a href="/australian-health-services" class="main_content-article-helper-hsf">Find a health service</a>
+                    </section>
+                    <section class="content_hotline">
+                      <h1 class="sr-only">Healthdirect 24hr 7 days a week hotline</h1>
+                      <div class="content_hotline-container">
+                        <p>24 hour health advice and information you can count on</p>
+                        <p><a data-ng-click="hotlineClicked()" href="tel:1800022222" class="content_hotline-phone"><i class="content_hotline-phone-icon" aria-hidden="true"></i> 1800 022 222</a></p>
+                      </div>
+                    </section>
+                  </div>
+            
+            
+                  <section class="content_partners">
+                    <h1 class="sr-only">Government Accredited with over 140 information partners</h1>
+                    <img alt="Healthdirect logo" src="https://www.healthdirect.gov.au/images/logo-hda.svg" class="content_partners-hda-logo" />
+                    <p>We are a government-funded service, providing quality, approved health information</p>
+                    <div>
+                      <a target="_blank" href="http://www.health.gov.au/"> <img alt="Australian Government, health department logo" src="https://www.healthdirect.gov.au/images/logo-gov-dep-health.png" /></a>
+                      <a target="_blank" href="http://www.health.act.gov.au/"><img alt="ACT Government logo" src="https://www.healthdirect.gov.au/images/logo-gov-act.png" /></a>
+                      <a target="_blank" href="http://www.health.nsw.gov.au/"><img alt="New South Wales government, health department logo" src="https://www.healthdirect.gov.au/images/logo-gov-nsw-health.png" /></a>
+                      <a target="_blank" href="http://www.health.nt.gov.au/"> <img alt="Northen Territory Government logo" src="https://www.healthdirect.gov.au/images/logo-gov-nt.png" /></a>
+                      <a target="_blank" href="http://www.health.sa.gov.au/"><img alt="Government of South Australia, health department logo" src="https://www.healthdirect.gov.au/images/logo-gov-sa.png" /></a>
+                      <a target="_blank" href="http://www.dhhs.tas.gov.au/"><img alt="Tasmanian government logo" src="https://www.healthdirect.gov.au/images/logo-gov-tas.png" /></a>
+                      <a target="_blank" href="http://ww2.health.wa.gov.au/"><img alt="Government of Western Australia, health department logo" src="https://www.healthdirect.gov.au/images/logo-gov-wa.png" /></a>
+                    </div>
+                  </section>
+            
+                  
+<footer class="hda-foot">
+  <div class="hda-foot_container">
+    <div class="grid-row">
+      <div class="hda-foot_col-about">
+        <h4>You can trust us</h4>
+        <p>healthdirect's content is developed using our <a href="/about-our-content">content governance framework</a>, which also includes quality assessments of selected information.</p>
+        <a target="_blank" href="https://www.healthonnet.org/HONcode/Conduct.html?HONConduct817993"><img alt="H.O.N code - Health on the Net Foundation logo" src="/assets/images/honconduct.gif" class="hda-foot_col-about-hon-code-logo" /></a>
+      </div>
+      <div class="hda-foot_col-social-app">
+        <h4>Follow us</h4>
+        <a href="https://www.facebook.com/HealthdirectAustralia/" class="hda-foot_col-social-app-follow-icon"><i class="social-icon_facebook" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/healthdirectau" class="hda-foot_col-social-app-follow-icon"><i class="social-icon_twitter" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/company/healthdirect-australia" class="hda-foot_col-social-app-follow-icon"><i class="social-icon_linkedin" aria-hidden="true"></i></a>
+        <h4>Download our App</h4>
+        <p><a class="hda-foot_col-social-app-store-btn" href="/health-app">Find out more</a></p>
+        <p><a href="https://itunes.apple.com/au/app/healthdirect-check-symptoms/id1021494621?ls=1&amp;mt=8">
+            <img alt="download from the App store" src="/assets/images/app-apple-store.png" class="hda-foot_col-social-app-store-img ng-scope" /></a>
+          <a href="https://play.google.com/store/apps/details?id=au.org.healthdirect.healthdirectapp">
+            <img alt="download from google play" src="/assets/images/app-google-play.png" class="hda-foot_col-social-app-store-img ng-scope" /></a>
+        </p>
+      </div>
+      <div class="hda-foot_col-quick-links">
+        <h4 class="ng-binding">Quick links</h4>
+        <ul>
+          <li class="ng-scope"><a target="_blank" class="ng-binding" href="/about-us"><i class="list-links-icon" aria-hidden="true"></i> About us</a></li>
+          <li class="ng-scope"><a class="ng-binding" href="/our-services"><i class="list-links-icon" aria-hidden="true"></i> Our services</a></li>
+          <li class="ng-scope"><a class="ng-binding" href="/contact-us"><i class="list-links-icon" aria-hidden="true"></i> Contact us</a></li>
+          <li class="ng-scope"><a target="_blank" class="ng-binding" href="/linking-to-us"><i class="list-links-icon" aria-hidden="true"></i> Linking to us</a></li>
+          <li class="ng-scope"><a class="ng-binding" href="/information-partners"><i class="list-links-icon" aria-hidden="true"></i> Information partners</a></li>
+          <li class="ng-scope"><a class="ng-binding" href="/privacy-policy"><i class="list-links-icon" aria-hidden="true"></i> Privacy</a></li>
+          <li class="ng-scope"><a class="ng-binding" href="/terms-of-use"><i class="list-links-icon" aria-hidden="true"></i> Terms of use</a></li>
+        </ul>
+      </div>
+      <div class="hda-foot_col-resources">
+        <h4 class="ng-binding">Resources</h4>
+        <ul>
+          <li class="ng-scope"><a class="ng-binding" href="/question-builder"><i class="list-links-icon" aria-hidden="true"></i> Question builder</a></li>
+          <li class="ng-scope"><a class="ng-binding" href="/health-and-wellbeing-apps"><i class="list-links-icon" aria-hidden="true"></i> Health apps</a></li>
+          <li class="ng-scope"><a class="ng-binding" href="/bmi-calculator"><i class="list-links-icon" aria-hidden="true"></i> BMI calculator</a></li>
+          <li class="ng-scope"><a class="ng-binding" href="/health-videos"><i class="list-links-icon" aria-hidden="true"></i> Video gallery</a></li>
+          <li class="ng-scope"><a class="ng-binding" href="/health-news"><i class="list-links-icon" aria-hidden="true"></i> News</a></li>
+          <li class="ng-scope"><a class="ng-binding" href="/health-events"><i class="list-links-icon" aria-hidden="true"></i> Events</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+                  
+    <div id="main-content-general-feedback">
+        <div class="main_content-survey">
+            <button class="feedback-button-popup show">Feedback</button>
+            <a target="_blank" href="https://healthdirect.au1.qualtrics.com/SE/?SID=SV_57qfQg5nhrCO3Nr&amp;Page=https%3A%2F%2Fwww.healthdirect.gov.au%2Fsearch-results%2Fasthma&amp;Referral=https%3A%2F%2Fwww.healthdirect.gov.au" class="hidden">Feedback</a>
+        </div>
+        <div class="popup-content hidden">
+            <header class="dor-modal_body-header">
+                <h2>Feedback</h2>
+            </header>
+            <section class="dor-modal_body-main">
+                <iframe width="100%" height="400"></iframe>
+            </section>
+
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        initGeneralFeedback('https://healthdirect.au1.qualtrics.com/SE/?SID=SV_57qfQg5nhrCO3Nr');
+    </script>
+
+                
+            
+                  <div class="veyron-global-popup hidden">
+                    <div class="veyron-global-disable-screen dor-modal_screen"></div>
+                    <div class="dor-modal_body">
+                      <div class="veyron-global-popup-container">
+            
+                      </div>
+                      <button class="dor-modal_body-exit">
+                        <i class="dor-icon_cross"></i>
+                      </button>
+                    </div>
+            
+            
+                  </div>
+            
+            
+            
+                  <script src="/components/veyron/bootstrapper.js" type="text/javascript"></script>
+            
+            
+                
+              
+              <div style="display: none; visibility: hidden;"><script type="text/javascript">var referrerTag=document.createElement("meta");referrerTag.name="referrer";referrerTag.content="origin";document.getElementsByTagName("head")[0].appendChild(referrerTag);</script>
+</div></body><canvas id="fxdriver-screenshot-canvas" style="display: none;" width="1263" height="3921"></canvas></html>

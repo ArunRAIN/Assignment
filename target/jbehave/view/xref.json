@@ -1,0 +1,674 @@
+{"xref": {
+  "stories": [
+    {
+      "story": {
+        "path": "stories/consult_dictionary/Sample.story",
+        "description": {
+          "descriptionAsString": "Data search"
+        },
+        "narrative": {
+          "inOrderTo": "communicate effectively to the business some functionality",
+          "asA": "development team",
+          "iWantTo": "use Behaviour-Driven Development",
+          "soThat": ""
+        },
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "lifecycle": {
+          "before": {
+            "steps": [
+              []
+            ]
+          },
+          "after": []
+        },
+        "scenarios": [
+          {
+            "title": "Search elements are displayed when User typed into Main search",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User on test page",
+              "When User search for a keyword 'asthma'",
+              "Then User verify if the search results displayed are for 'asthma'"
+            ]
+          }
+        ],
+        "name": "Sample.story"
+      },
+      "localizedNarrative": "In order to communicate effectively to the business some functionality\nAs a development team\nI want to use Behaviour-Driven Development",
+      "allowed": true,
+      "status": "SUCCESSFUL",
+      "givenStories": [],
+      "scenarios": [
+        {
+          "scenario": {
+            "title": "Search elements are displayed when User typed into Main search",
+            "meta": {
+              "properties": []
+            },
+            "givenStories": {
+              "givenStories": [],
+              "givenStoriesAsString": "",
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              }
+            },
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            },
+            "steps": [
+              "Given User on test page",
+              "When User search for a keyword 'asthma'",
+              "Then User verify if the search results displayed are for 'asthma'"
+            ]
+          },
+          "storyPath": "stories/consult_dictionary/Sample.story",
+          "allowed": true,
+          "normalPerformableScenario": {
+            "parameters": [],
+            "givenStories": [],
+            "beforeSteps": {
+              "matches": []
+            },
+            "steps": {
+              "matches": [],
+              "results": [
+                {
+                  "step": "Given User on test page",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Given User on test page",
+                  "durationInMillis": 27615,
+                  "start": 1502601064165,
+                  "end": 1502601091780
+                },
+                {
+                  "step": "When User search for a keyword 'asthma'",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "When User search for a keyword 'asthma'",
+                  "durationInMillis": 10880,
+                  "start": 1502601093546,
+                  "end": 1502601104426
+                },
+                {
+                  "step": "Then User verify if the search results displayed are for 'asthma'",
+                  "type": "SUCCESSFUL",
+                  "parametrisedStep": "Then User verify if the search results displayed are for 'asthma'",
+                  "durationInMillis": 1040,
+                  "start": 1502601105705,
+                  "end": 1502601106745
+                }
+              ]
+            },
+            "afterSteps": {
+              "matches": []
+            },
+            "storyAndScenarioMeta": {
+              "properties": []
+            },
+            "scenario": {
+              "title": "Search elements are displayed when User typed into Main search",
+              "meta": {
+                "properties": []
+              },
+              "givenStories": {
+                "givenStories": [],
+                "givenStoriesAsString": "",
+                "examplesTable": {
+                  "tableAsString": "",
+                  "headerSeparator": "|",
+                  "valueSeparator": "|",
+                  "ignorableSeparator": "|--",
+                  "tableTransformers": {
+                    "transformers": [
+                      [
+                        "FORMATTING",
+                        {}
+                      ],
+                      [
+                        "REPLACING",
+                        {}
+                      ],
+                      [
+                        "FROM_LANDSCAPE",
+                        {}
+                      ]
+                    ]
+                  },
+                  "headers": [],
+                  "data": [],
+                  "properties": [
+                    {
+                      "@name": "headerSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "valueSeparator",
+                      "@value": "|"
+                    },
+                    {
+                      "@name": "ignorableSeparator",
+                      "@value": "|--"
+                    }
+                  ],
+                  "propertiesAsString": "",
+                  "namedParameters": [],
+                  "trim": true
+                }
+              },
+              "examplesTable": {
+                "tableAsString": "",
+                "headerSeparator": "|",
+                "valueSeparator": "|",
+                "ignorableSeparator": "|--",
+                "tableTransformers": {
+                  "transformers": [
+                    [
+                      "FORMATTING",
+                      {}
+                    ],
+                    [
+                      "REPLACING",
+                      {}
+                    ],
+                    [
+                      "FROM_LANDSCAPE",
+                      {}
+                    ]
+                  ]
+                },
+                "headers": [],
+                "data": [],
+                "properties": [
+                  {
+                    "@name": "headerSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "valueSeparator",
+                    "@value": "|"
+                  },
+                  {
+                    "@name": "ignorableSeparator",
+                    "@value": "|--"
+                  }
+                ],
+                "propertiesAsString": "",
+                "namedParameters": [],
+                "trim": true
+              },
+              "steps": [
+                "Given User on test page",
+                "When User search for a keyword 'asthma'",
+                "Then User verify if the search results displayed are for 'asthma'"
+              ]
+            }
+          },
+          "examplePerformableScenarios": [],
+          "status": "SUCCESSFUL"
+        }
+      ],
+      "beforeSteps": {},
+      "afterSteps": {},
+      "timing": {
+        "durationInMillis": 43978,
+        "start": 1502601064068,
+        "end": 1502601108046
+      },
+      "givenStory": false
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": {
+        "title": "Search elements are displayed when User typed into Main search",
+        "meta": {
+          "properties": []
+        },
+        "givenStories": {
+          "givenStories": [],
+          "givenStoriesAsString": "",
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          }
+        },
+        "examplesTable": {
+          "tableAsString": "",
+          "headerSeparator": "|",
+          "valueSeparator": "|",
+          "ignorableSeparator": "|--",
+          "tableTransformers": {
+            "transformers": [
+              [
+                "FORMATTING",
+                {}
+              ],
+              [
+                "REPLACING",
+                {}
+              ],
+              [
+                "FROM_LANDSCAPE",
+                {}
+              ]
+            ]
+          },
+          "headers": [],
+          "data": [],
+          "properties": [
+            {
+              "@name": "headerSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "valueSeparator",
+              "@value": "|"
+            },
+            {
+              "@name": "ignorableSeparator",
+              "@value": "|--"
+            }
+          ],
+          "propertiesAsString": "",
+          "namedParameters": [],
+          "trim": true
+        },
+        "steps": [
+          "Given User on test page",
+          "When User search for a keyword 'asthma'",
+          "Then User verify if the search results displayed are for 'asthma'"
+        ]
+      },
+      "storyPath": "stories/consult_dictionary/Sample.story",
+      "allowed": true,
+      "normalPerformableScenario": {
+        "parameters": [],
+        "givenStories": [],
+        "beforeSteps": {
+          "matches": []
+        },
+        "steps": {
+          "matches": [],
+          "results": [
+            {
+              "step": "Given User on test page",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Given User on test page",
+              "durationInMillis": 27615,
+              "start": 1502601064165,
+              "end": 1502601091780
+            },
+            {
+              "step": "When User search for a keyword 'asthma'",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "When User search for a keyword 'asthma'",
+              "durationInMillis": 10880,
+              "start": 1502601093546,
+              "end": 1502601104426
+            },
+            {
+              "step": "Then User verify if the search results displayed are for 'asthma'",
+              "type": "SUCCESSFUL",
+              "parametrisedStep": "Then User verify if the search results displayed are for 'asthma'",
+              "durationInMillis": 1040,
+              "start": 1502601105705,
+              "end": 1502601106745
+            }
+          ]
+        },
+        "afterSteps": {
+          "matches": []
+        },
+        "storyAndScenarioMeta": {
+          "properties": []
+        },
+        "scenario": {
+          "title": "Search elements are displayed when User typed into Main search",
+          "meta": {
+            "properties": []
+          },
+          "givenStories": {
+            "givenStories": [],
+            "givenStoriesAsString": "",
+            "examplesTable": {
+              "tableAsString": "",
+              "headerSeparator": "|",
+              "valueSeparator": "|",
+              "ignorableSeparator": "|--",
+              "tableTransformers": {
+                "transformers": [
+                  [
+                    "FORMATTING",
+                    {}
+                  ],
+                  [
+                    "REPLACING",
+                    {}
+                  ],
+                  [
+                    "FROM_LANDSCAPE",
+                    {}
+                  ]
+                ]
+              },
+              "headers": [],
+              "data": [],
+              "properties": [
+                {
+                  "@name": "headerSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "valueSeparator",
+                  "@value": "|"
+                },
+                {
+                  "@name": "ignorableSeparator",
+                  "@value": "|--"
+                }
+              ],
+              "propertiesAsString": "",
+              "namedParameters": [],
+              "trim": true
+            }
+          },
+          "examplesTable": {
+            "tableAsString": "",
+            "headerSeparator": "|",
+            "valueSeparator": "|",
+            "ignorableSeparator": "|--",
+            "tableTransformers": {
+              "transformers": [
+                [
+                  "FORMATTING",
+                  {}
+                ],
+                [
+                  "REPLACING",
+                  {}
+                ],
+                [
+                  "FROM_LANDSCAPE",
+                  {}
+                ]
+              ]
+            },
+            "headers": [],
+            "data": [],
+            "properties": [
+              {
+                "@name": "headerSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "valueSeparator",
+                "@value": "|"
+              },
+              {
+                "@name": "ignorableSeparator",
+                "@value": "|--"
+              }
+            ],
+            "propertiesAsString": "",
+            "namedParameters": [],
+            "trim": true
+          },
+          "steps": [
+            "Given User on test page",
+            "When User search for a keyword 'asthma'",
+            "Then User verify if the search results displayed are for 'asthma'"
+          ]
+        }
+      },
+      "examplePerformableScenarios": [],
+      "status": "SUCCESSFUL"
+    }
+  ]
+}}

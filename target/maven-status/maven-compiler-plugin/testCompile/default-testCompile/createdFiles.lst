@@ -1,0 +1,4 @@
+com\demo\bdd\pages\DictionaryPage.class
+com\demo\bdd\jbehave\DefinitionSteps.class
+com\demo\bdd\steps\EndUserSteps.class
+com\demo\bdd\jbehave\AcceptanceTestSuite.class
