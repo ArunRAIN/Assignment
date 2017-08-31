@@ -1,4 +1,4 @@
-package com.demo.bdd.jbehave;
+package com.demo.bdd.definitions;
 
 import net.thucydides.core.annotations.Steps;
 
